@@ -12,6 +12,11 @@
     },
     "string_rules": [
       { "key": "*", "type": "unigram", "sample_weight": "bin", "global_weight": "bin" }
+    ],
+    "combination_types": {
+    },
+    "combination_rules": [
+        { "key_left": "*", "key_right": "*", "type":"mul" }
     ]
   },
   "parameter": {
